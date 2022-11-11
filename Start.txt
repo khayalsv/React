@@ -1,0 +1,79 @@
+create-react-app reactapp
+cd reactapp
+cd..
+npm run start
+
+impt
+rfc
+rcc
+
+npm install uniqid
+
+onClick={this.onclikEvent.bind(this)}
+
+
+
+----------------------------------------
+
+npm install axios
+cdm
+
+npm install react-router-dom
+
+package:
+npm install reactstrap
+npm install bootstrap
+import {Row} from 'reactstrap';
+
+index.js -> import 'bootstrap/dist/css/bootstrap.min.css'
+
+npm install -g json-server
+json-server --watch api/db.json  
+json-server --watch db.json --port 3004
+
+
+------------Redux--------
+npx create-react-app redux-intro
+
+cd redux-intro
+
+npm install redux
+npm install react-redux
+npm install react-thunk
+
+npm install reactstrap
+npm install bootstrap
+
+npm install alertifyjs
+
+npm install react-router-dom
+
+npm install formik
+npm test
+npm i yup
+
+npm i react-intl--
+npm install socket.io--
+npm install socket.io-client--
+
+index.js -> import 'bootstrap/dist/css/bootstrap.min.css'
+index.js -> import 'alertifyjs/build/css/alertify.min.css'
+index.js -> import {BrowserRouter} from "react-router-dom"
+
+---
+actions/actionType->counterAction->reducers/counterReducer->index->configure
+
+index.js :
+
+import configureStore from "./redux/reducers/configureStore"
+import { Provider } from 'react-redux';
+
+const store = configureStore();
+  
+<React.StrictMode>
+    <BrowserRouter>
+      <Provider store={store}>
+        <App />
+      </Provider>
+    </BrowserRouter>
+  </React.StrictMode>

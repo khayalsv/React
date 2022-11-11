@@ -1,0 +1,28 @@
+react single page structurlu componentlerden ibaretdir.
+export-public evezeduicisi
+render-componentde deyiwiklik olande hemin componenti deyiwir
+parent componentden child componentde data gondermey olur(A->B), amma tersine olmur(B->A).
+A B C componentlerinde, A dan C ye bir-bawa data gondermey olmur,onun yerine A->B->C kimi data oturulur
+Html kodlari eslinde JSX kodlaridi
+Encapsulation mentiqi -> bir-basa deyeri gondermek duzgun deil ,onun yerine qiragda obyekt yaradib gondermek lazimdir
+Props- 1 componentden obirine deyer dasimaq
+State- 1 componentin deyeridir(datasidir)
+Map- listin deyerlerini tek tek doner,ve hamisini yeni bir obyekte cevirib yeni bir array qaytarir
+Redux- ayrica bir stateni ozunde saxliyir ve istenilen her componente data gonderir
+Action-sehifedeki actionlar oldugu(artir,azalt,listele ve s.)
+Reduce- action a gore stateni bildirmek (api ve ya db baglanmaz, besit state idaresi olunur).State return eliyir,reducer=state
+payload-qarsisinda deyere verdiyimiz addir,js ye ozel adlandirma
+componentDidMount-proqram acilanda cagirilan metodlar
+Real dom -un clonu react terefinde tutulur, virtiual dom real domun kopyasidir ,virtual domu deyisdirdikde react virtualla real domu qarsilasdirir ve
+ferqli olan yerleri deyisdirir.
+useState iwe salindiqda(onclick olunduqda,eventde), useEffect metodu arxada iwe duwur.
+sert ifadelerinin daxilinde hooks isledilmez
+useEffect metodunun sonuna yazilan bu isare - [] dependency arraylardir,hansi statenin deyisdiyini tutmag ucun istifade olunur
+export default React.Memo(Header) -lazimsiz renderlerin qabagini kesir
+
+1./redux/actions/actionType.js
+2./redux/actions/nameAction.js
+3./redux/reducers/nameList.js
+4./redux/reducers/initialState.js
+5./redux/reducers/index.js
+6./components/name/name.js
