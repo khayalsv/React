@@ -19,6 +19,7 @@ useState iwe salindiqda(onclick olunduqda,eventde), useEffect metodu arxada iwe 
 sert ifadelerinin daxilinde hooks isledilmez
 useEffect metodunun sonuna yazilan bu isare - [] dependency arraylardir,hansi statenin deyisdiyini tutmag ucun istifade olunur
 export default React.Memo(Header) -lazimsiz renderlerin qabagini kesir
+outlet- parent elemente (Sharedlayouta yonlendirir)
 
 1./redux/actions/actionType.js
 2./redux/actions/nameAction.js

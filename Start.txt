@@ -60,6 +60,11 @@ index.js -> import 'bootstrap/dist/css/bootstrap.min.css'
 index.js -> import 'alertifyjs/build/css/alertify.min.css'
 index.js -> import {BrowserRouter} from "react-router-dom"
 
+npm run-script build
+
+npm install @material-ui/core --legacy-peer-deps
+
+npm install @material-ui/core --force
 ---
 actions/actionType->counterAction->reducers/counterReducer->index->configure
 
