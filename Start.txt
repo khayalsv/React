@@ -65,6 +65,8 @@ npm run-script build
 npm install @material-ui/core --legacy-peer-deps
 
 npm install @material-ui/core --force
+
+npm install --global node-sass@latest
 ---
 actions/actionType->counterAction->reducers/counterReducer->index->configure
 
